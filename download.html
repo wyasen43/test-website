@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Download — All In One Downloader</title>
+<meta name="robots" content="noindex"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+<style>
+:root{--bg:#020408;--card:rgba(255,255,255,.035);--br:rgba(255,255,255,.08);--tx:#f0f4ff;--mu:rgba(240,244,255,.45);--ac:#4f8eff;--a2:#a259ff;--gr:#22d3a5;--rd:#ff6b6b;}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{background:var(--bg);color:var(--tx);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+.bg{position:fixed;inset:0;z-index:0;}
+.bg::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 70% 50% at 30% 20%,rgba(79,142,255,.1) 0%,transparent 60%),radial-gradient(ellipse 50% 50% at 70% 70%,rgba(162,89,255,.08) 0%,transparent 60%);}
+.gd{position:absolute;inset:0;background-image:linear-gradient(rgba(79,142,255,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(79,142,255,.04) 1px,transparent 1px);background-size:60px 60px;mask-image:radial-gradient(ellipse 100% 100% at 50% 50%,black 20%,transparent 80%);}
+/* NAV */
+.nav{position:fixed;top:0;left:0;right:0;z-index:200;padding:11px 18px;display:flex;align-items:center;justify-content:space-between;background:rgba(2,4,8,.92);backdrop-filter:blur(20px);border-bottom:1px solid var(--br);}
+.nlogo{display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--tx);}
+.ni{width:29px;height:29px;border-radius:8px;background:linear-gradient(135deg,var(--ac),var(--a2));display:flex;align-items:center;justify-content:center;font-size:13px;}
+.nt{font-family:'Syne',sans-serif;font-weight:800;font-size:15px;}
+.nt span{color:var(--ac);}
+.bk{display:flex;align-items:center;gap:5px;color:var(--mu);font-size:13px;text-decoration:none;transition:color .2s;cursor:pointer;background:none;border:none;font-family:'DM Sans',sans-serif;}
+.bk:hover{color:var(--tx);}
+.bk svg{width:14px;height:14px;stroke:currentColor;fill:none;stroke-width:2;}
+/* PAGE */
+.pg{position:relative;z-index:1;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:40px 20px;}
+.content{width:100%;max-width:640px;margin-top:70px;}
+/* LOADING STATE */
+.loading{text-align:center;padding:60px 20px;color:var(--mu);}
+.loading .spinner{width:40px;height:40px;border:3px solid var(--br);border-top-color:var(--ac);border-radius:50%;animation:spin .8s linear infinite;margin:0 auto 16px;}
+@keyframes spin{to{transform:rotate(360deg);}}
+/* PREVIEW CARD */
+.pcard{background:var(--card);border:1px solid var(--br);border-radius:22px;overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,.5);position:relative;animation:fU .6s cubic-bezier(.16,1,.3,1) both;}
+.pcard::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(79,142,255,.5),rgba(162,89,255,.5),transparent);z-index:2;}
+.tw{position:relative;width:100%;aspect-ratio:16/9;overflow:hidden;background:#0a0f1a;}
+.tw img{width:100%;height:100%;object-fit:cover;display:block;}
+.tov{position:absolute;inset:0;background:linear-gradient(to bottom,transparent 40%,rgba(2,4,8,.85) 100%);}
+.tph{width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-size:52px;background:linear-gradient(135deg,#0a0f1a,#1a1030);}
+.ptag{position:absolute;top:12px;left:12px;padding:4px 11px;border-radius:20px;font-size:11px;font-weight:600;backdrop-filter:blur(10px);z-index:2;}
+.mbadge{position:absolute;top:12px;right:12px;padding:4px 11px;border-radius:20px;font-size:11px;font-weight:600;background:rgba(255,77,122,.2);border:1px solid rgba(255,77,122,.4);color:#ff4d7a;z-index:2;}
+/* INFO */
+.vinfo{padding:22px 24px;}
+.vtitle{font-family:'Syne',sans-serif;font-size:16px;font-weight:700;margin-bottom:7px;line-height:1.3;}
+.vmeta{display:flex;gap:12px;color:var(--mu);font-size:13px;margin-bottom:18px;flex-wrap:wrap;}
+.wrong{display:flex;align-items:center;gap:7px;padding:9px 12px;border-radius:10px;background:rgba(255,255,255,.03);border:1px solid var(--br);margin-bottom:14px;font-size:13px;color:var(--mu);}
+.wrong a{color:var(--ac);text-decoration:none;margin-left:auto;font-size:12px;}
+/* TYPE TOGGLE */
+.ttr{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-bottom:14px;}
+.ttb{padding:10px;border-radius:10px;border:1px solid var(--br);background:transparent;color:var(--mu);font-size:13px;font-weight:500;font-family:'DM Sans',sans-serif;cursor:pointer;transition:all .2s;display:flex;align-items:center;justify-content:center;gap:6px;}
+.ttb.act{background:rgba(79,142,255,.1);border-color:rgba(79,142,255,.35);color:var(--tx);}
+/* QUALITY */
+.qlabel{font-size:11px;color:var(--mu);letter-spacing:1px;text-transform:uppercase;margin-bottom:9px;}
+.qgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(80px,1fr));gap:7px;margin-bottom:14px;}
+.qbtn{padding:10px 5px;border-radius:10px;background:rgba(255,255,255,.04);border:1px solid var(--br);color:var(--mu);font-size:12px;font-weight:500;font-family:'DM Sans',sans-serif;cursor:pointer;transition:all .2s;text-align:center;}
+.qbtn:hover{border-color:rgba(255,255,255,.15);color:var(--tx);}
+.qbtn.sel{background:rgba(79,142,255,.1);border-color:rgba(79,142,255,.4);color:var(--tx);}
+.qsub{font-size:10px;color:var(--mu);display:block;margin-top:2px;}
+.qsize{font-size:10px;color:var(--gr);display:block;margin-top:1px;}
+.qbtn.sel .qsub,.qbtn.sel .qsize{color:rgba(79,142,255,.7);}
+/* DOWNLOAD BTN */
+.dbtn{width:100%;padding:15px;border:none;border-radius:12px;background:linear-gradient(135deg,var(--ac),var(--a2));color:white;font-size:14px;font-weight:600;font-family:'Syne',sans-serif;cursor:pointer;transition:transform .2s,box-shadow .2s,opacity .2s;position:relative;overflow:hidden;}
+.dbtn::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(255,255,255,.1),transparent);}
+.dbtn:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(79,142,255,.35);}
+.dbtn:active{transform:scale(.98);}
+.dbtn:disabled{opacity:.6;cursor:not-allowed;transform:none;}
+/* PROGRESS */
+.psec{margin-top:14px;display:none;}
+.psec.sh{display:block;}
+.phdr{display:flex;justify-content:space-between;margin-bottom:7px;}
+.phdr span{font-size:12px;color:var(--mu);}
+.phdr strong{font-size:12px;color:var(--tx);font-weight:600;}
+.ptrack{height:5px;background:rgba(255,255,255,.06);border-radius:10px;overflow:hidden;}
+.pfill{height:100%;border-radius:10px;background:linear-gradient(90deg,var(--ac),var(--a2),var(--gr));background-size:200%;animation:gm 2s linear infinite;transition:width .4s ease;width:0%;}
+@keyframes gm{0%{background-position:0%;}100%{background-position:200%;}}
+.pmeta{display:flex;gap:12px;margin-top:6px;}
+.pmeta span{font-size:11px;color:var(--mu);}
+footer{position:relative;z-index:1;text-align:center;padding:18px;color:rgba(255,255,255,.15);font-size:12px;border-top:1px solid var(--br);}
+footer a{color:rgba(255,255,255,.25);text-decoration:none;margin:0 7px;}
+@keyframes fU{from{opacity:0;transform:translateY(22px);}to{opacity:1;transform:translateY(0);}}
+@media(max-width:500px){.vinfo{padding:16px;}.vtitle{font-size:14px;}}
+</style>
+</head>
+<body>
+<div class="bg"><div class="gd"></div></div>
+
+<nav class="nav">
+  <a class="nlogo" id="homeLink" href="/">
+    <div class="ni">⬇</div>
+    <div class="nt">All<span>In</span>One</div>
+  </a>
+  <button class="bk" id="backBtn" onclick="goBack()">
+    <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>
+    <span id="backLabel">New Download</span>
+  </button>
+</nav>
+
+<main class="pg">
+  <div class="content" id="content">
+    <div class="loading">
+      <div class="spinner"></div>
+      Loading...
+    </div>
+  </div>
+</main>
+
+<footer id="footer">
+  © 2025 All In One Downloader
+</footer>
+
+<script>
+/* ===== HELPERS ===== */
+function detectBaseFromPath() {
+    var m = window.location.pathname.match(/^\/([a-z]{2,3})(?:\/|$)/);
+    return m ? '/' + m[1] : '';
+}
+
+function getHomeHref(basePath) {
+    if (basePath) return basePath || '/';
+    if (window.location.pathname === '/' || window.location.pathname === '/download') return '/';
+    return 'index.html';
+}
+
+/* ===== READ vInfo from sessionStorage ===== */
+var raw = sessionStorage.getItem('vInfo') || sessionStorage.getItem('videoInfo');
+
+// لو مفيش بيانات — ارجع للصفحة الرئيسية
+if (!raw) {
+    window.location.href = getHomeHref(detectBaseFromPath());
+}
+
+var info, lang, base;
+try {
+    info = JSON.parse(raw);
+    lang = info.lang || localStorage.getItem('aio_lang') || 'en';
+    base = info.base || detectBaseFromPath();  // "" for en, "/ar" for ar, etc.
+} catch(e) {
+    window.location.href = getHomeHref(detectBaseFromPath());
+}
+
+/* ===== SET LANG DIR ===== */
+document.documentElement.lang = lang;
+// Arabic & RTL langs
+var RTL_LANGS = ['ar'];
+if (RTL_LANGS.includes(lang)) {
+    document.documentElement.dir = 'rtl';
+}
+
+/* ===== UPDATE NAV ===== */
+document.getElementById('homeLink').href = getHomeHref(base);
+
+/* ===== TRANSLATIONS (minimal for this page) ===== */
+var T = {
+    en: { back:'New Download', not_right:'Not the right video?', try_diff:'Try a different URL →', select_q:'Select Quality', dl_video:'Download Video', dl_mp3:'Download MP3', preparing:'Preparing...', downloading:'Downloading...', done_msg:'Done!', type_video:'Video (MP4)', type_audio:'Audio (MP3)', calc:'calculating...' },
+    ar: { back:'تحميل جديد', not_right:'ليس الفيديو الصحيح؟', try_diff:'جرب رابطاً آخر ←', select_q:'اختر الجودة', dl_video:'تحميل الفيديو', dl_mp3:'تحميل MP3', preparing:'جاري التجهيز...', downloading:'جاري التحميل...', done_msg:'اكتمل!', type_video:'فيديو (MP4)', type_audio:'صوت (MP3)', calc:'جاري الحساب...' },
+    es: { back:'Nueva descarga', not_right:'¿No es el video correcto?', try_diff:'Probar otra URL →', select_q:'Seleccionar calidad', dl_video:'Descargar video', dl_mp3:'Descargar MP3', preparing:'Preparando...', downloading:'Descargando...', done_msg:'¡Listo!', type_video:'Video (MP4)', type_audio:'Audio (MP3)', calc:'calculando...' },
+    pt: { back:'Novo download', not_right:'Não é o vídeo certo?', try_diff:'Tentar outro URL →', select_q:'Selecionar qualidade', dl_video:'Baixar vídeo', dl_mp3:'Baixar MP3', preparing:'Preparando...', downloading:'Baixando...', done_msg:'Pronto!', type_video:'Vídeo (MP4)', type_audio:'Áudio (MP3)', calc:'calculando...' },
+    fr: { back:'Nouveau téléchargement', not_right:'Pas la bonne vidéo?', try_diff:'Essayer une autre URL →', select_q:'Choisir la qualité', dl_video:'Télécharger', dl_mp3:'Télécharger MP3', preparing:'Préparation...', downloading:'Téléchargement...', done_msg:'Terminé!', type_video:'Vidéo (MP4)', type_audio:'Audio (MP3)', calc:'calcul...' },
+    de: { back:'Neuer Download', not_right:'Nicht das richtige Video?', try_diff:'Andere URL versuchen →', select_q:'Qualität wählen', dl_video:'Video herunterladen', dl_mp3:'MP3 herunterladen', preparing:'Vorbereitung...', downloading:'Wird heruntergeladen...', done_msg:'Fertig!', type_video:'Video (MP4)', type_audio:'Audio (MP3)', calc:'berechnung...' },
+    id: { back:'Unduhan baru', not_right:'Bukan video yang tepat?', try_diff:'Coba URL lain →', select_q:'Pilih kualitas', dl_video:'Unduh video', dl_mp3:'Unduh MP3', preparing:'Mempersiapkan...', downloading:'Mengunduh...', done_msg:'Selesai!', type_video:'Video (MP4)', type_audio:'Audio (MP3)', calc:'menghitung...' },
+    tr: { back:'Yeni indirme', not_right:'Doğru video değil mi?', try_diff:'Farklı URL dene →', select_q:'Kalite seç', dl_video:'Videoyu indir', dl_mp3:'MP3 indir', preparing:'Hazırlanıyor...', downloading:'İndiriliyor...', done_msg:'Tamam!', type_video:'Video (MP4)', type_audio:'Ses (MP3)', calc:'hesaplanıyor...' },
+    ru: { back:'Новая загрузка', not_right:'Не то видео?', try_diff:'Другой URL →', select_q:'Выбрать качество', dl_video:'Скачать видео', dl_mp3:'Скачать MP3', preparing:'Подготовка...', downloading:'Загрузка...', done_msg:'Готово!', type_video:'Видео (MP4)', type_audio:'Аудио (MP3)', calc:'вычисление...' },
+    ja: { back:'新しいダウンロード', not_right:'違う動画ですか？', try_diff:'別のURLを試す →', select_q:'画質を選択', dl_video:'動画をダウンロード', dl_mp3:'MP3をダウンロード', preparing:'準備中...', downloading:'ダウンロード中...', done_msg:'完了!', type_video:'動画 (MP4)', type_audio:'音声 (MP3)', calc:'計算中...' },
+    ko: { back:'새 다운로드', not_right:'올바른 동영상이 아닌가요?', try_diff:'다른 URL 시도 →', select_q:'화질 선택', dl_video:'동영상 다운로드', dl_mp3:'MP3 다운로드', preparing:'준비 중...', downloading:'다운로드 중...', done_msg:'완료!', type_video:'동영상 (MP4)', type_audio:'오디오 (MP3)', calc:'계산 중...' },
+    zh: { back:'新下载', not_right:'不是正确的视频？', try_diff:'尝试其他链接 →', select_q:'选择质量', dl_video:'下载视频', dl_mp3:'下载MP3', preparing:'准备中...', downloading:'下载中...', done_msg:'完成!', type_video:'视频 (MP4)', type_audio:'音频 (MP3)', calc:'计算中...' },
+    hi: { back:'नया डाउनलोड', not_right:'सही वीडियो नहीं?', try_diff:'दूसरा URL →', select_q:'गुणवत्ता चुनें', dl_video:'वीडियो डाउनलोड', dl_mp3:'MP3 डाउनलोड', preparing:'तैयारी...', downloading:'डाउनलोड...', done_msg:'हो गया!', type_video:'वीडियो (MP4)', type_audio:'ऑडियो (MP3)', calc:'गणना...' },
+    vi: { back:'Tải xuống mới', not_right:'Không phải video đúng?', try_diff:'Thử URL khác →', select_q:'Chọn chất lượng', dl_video:'Tải video', dl_mp3:'Tải MP3', preparing:'Đang chuẩn bị...', downloading:'Đang tải...', done_msg:'Xong!', type_video:'Video (MP4)', type_audio:'Âm thanh (MP3)', calc:'đang tính...' },
+    it: { back:'Nuovo download', not_right:'Non è il video giusto?', try_diff:'Prova un altro URL →', select_q:'Seleziona qualità', dl_video:'Scarica video', dl_mp3:'Scarica MP3', preparing:'Preparazione...', downloading:'Download...', done_msg:'Fatto!', type_video:'Video (MP4)', type_audio:'Audio (MP3)', calc:'calcolo...' },
+    th: { back:'ดาวน์โหลดใหม่', not_right:'ไม่ใช่วิดีโอที่ถูกต้อง?', try_diff:'ลอง URL อื่น →', select_q:'เลือกคุณภาพ', dl_video:'ดาวน์โหลดวิดีโอ', dl_mp3:'ดาวน์โหลด MP3', preparing:'กำลังเตรียม...', downloading:'กำลังดาวน์โหลด...', done_msg:'เสร็จ!', type_video:'วิดีโอ (MP4)', type_audio:'เสียง (MP3)', calc:'กำลังคำนวณ...' },
+    fil:{ back:'Bagong download', not_right:'Hindi tamang video?', try_diff:'Subukan ibang URL →', select_q:'Piliin ang kalidad', dl_video:'I-download ang video', dl_mp3:'I-download ang MP3', preparing:'Inihahanda...', downloading:'Dina-download...', done_msg:'Tapos!', type_video:'Video (MP4)', type_audio:'Audio (MP3)', calc:'kinakalkula...' },
+    pl: { back:'Nowe pobieranie', not_right:'Nie to wideo?', try_diff:'Spróbuj innego URL →', select_q:'Wybierz jakość', dl_video:'Pobierz wideo', dl_mp3:'Pobierz MP3', preparing:'Przygotowywanie...', downloading:'Pobieranie...', done_msg:'Gotowe!', type_video:'Wideo (MP4)', type_audio:'Audio (MP3)', calc:'obliczanie...' },
+    nl: { back:'Nieuwe download', not_right:'Niet de juiste video?', try_diff:'Probeer andere URL →', select_q:'Selecteer kwaliteit', dl_video:'Download video', dl_mp3:'Download MP3', preparing:'Voorbereiden...', downloading:'Downloaden...', done_msg:'Klaar!', type_video:'Video (MP4)', type_audio:'Audio (MP3)', calc:'berekenen...' },
+    uk: { back:'Нове завантаження', not_right:'Не те відео?', try_diff:'Спробувати інший URL →', select_q:'Виберіть якість', dl_video:'Завантажити відео', dl_mp3:'Завантажити MP3', preparing:'Підготовка...', downloading:'Завантаження...', done_msg:'Готово!', type_video:'Відео (MP4)', type_audio:'Аудіо (MP3)', calc:'обчислення...' },
+};
+var tx = T[lang] || T['en'];
+
+/* ===== UPDATE NAV LABELS ===== */
+document.getElementById('backLabel').textContent = tx.back;
+
+/* ===== PLATFORM STYLES ===== */
+var PS = {
+    youtube:      {color:'#ff6b6b', bg:'rgba(255,0,0,.15)',    label:'YouTube'},
+    youtube_music:{color:'#ff4d7a', bg:'rgba(255,0,60,.15)',   label:'YT Music'},
+    facebook:     {color:'#60a5fa', bg:'rgba(24,119,242,.15)', label:'Facebook'},
+    tiktok:       {color:'#e5e5e5', bg:'rgba(255,255,255,.1)', label:'TikTok'},
+    instagram:    {color:'#f472b6', bg:'rgba(200,55,170,.15)', label:'Instagram'},
+    twitter:      {color:'#7dd3fc', bg:'rgba(29,161,242,.15)', label:'Twitter / X'},
+};
+var ps = PS[info.platform] || {color:'#aaa', bg:'rgba(255,255,255,.1)', label:'Video'};
+
+var selQ    = info.has1080 ? '1080' : (info.platform === 'instagram' || info.platform === 'tiktok' || info.platform === 'twitter' ? 'best' : '720');  // FIX: use 'best' for platforms that don't support quality selection
+var selType = info.type || 'video';
+var sizeCache = {};
+
+function esc(s) {
+    return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function getQualities() {
+    if (selType === 'mp3') return [
+        {v:'320',l:'320 kbps',s:'Best'},
+        {v:'256',l:'256 kbps',s:'High'},
+        {v:'192',l:'192 kbps',s:'Good'},
+        {v:'128',l:'128 kbps',s:'Normal'},
+        {v:'96', l:'96 kbps', s:'Lite'},
+    ];
+    if (info.has1080) return [
+        {v:'1080',l:'1080p',s:'Full HD'},
+        {v:'720', l:'720p', s:'HD'},
+        {v:'480', l:'480p', s:'Medium'},
+        {v:'360', l:'360p', s:'Lite'},
+    ];
+    return [
+        {v:'720',l:'720p', s:'Best'},
+        {v:'480',l:'480p', s:'Medium'},
+        {v:'360',l:'360p', s:'Lite'},
+    ];
+}
+
+async function fetchSize(q) {
+    var key = selType + q;
+    if (sizeCache[key] !== undefined) return;
+    sizeCache[key] = null;
+    try {
+        var r = await fetch('/get-size?url=' + encodeURIComponent(info.url) + '&type=' + selType + '&quality=' + q);
+        var d = await r.json();
+        sizeCache[key] = d.size || null;
+    } catch(e) { sizeCache[key] = null; }
+    updateSizes();
+}
+
+function updateSizes() {
+    document.querySelectorAll('.qbtn').forEach(function(btn) {
+        var v  = btn.dataset.q;
+        var sz = sizeCache[selType + v];
+        var el = btn.querySelector('.qsize');
+        if (el) el.textContent = sz === undefined ? tx.calc : (sz || '');
+    });
+}
+
+function render() {
+    var qs = getQualities();
+    if (!qs.find(function(q){return q.v===selQ;})) selQ = qs[0].v;
+    var thumb = info.thumbnail || null;  // FIX: Instagram thumbnail proxied by server, always use it
+    var icons = {youtube:'▶',youtube_music:'♪',facebook:'f',tiktok:'♪',instagram:'◉',twitter:'𝕏'};
+    var icon  = icons[info.platform] || '🎬';
+    var homeHref = getHomeHref(base);
+
+    document.getElementById('content').innerHTML =
+        '<div class="pcard">' +
+        '  <div class="tw">' +
+        (thumb
+            ? '<img src="'+esc(thumb)+'" alt="'+esc(info.title)+'" loading="lazy" onerror="this.style.display=\'none\';var ip=document.getElementById(\'iph\');if(ip){ip.style.display=\'flex\';ip.style.position=\'absolute\';ip.style.inset=\'0\';}">' +
+              '<div class="tph" id="iph" style="display:none;position:absolute;inset:0;">'+icon+'</div>'
+            : '<div class="tph">'+icon+'</div>') +
+        '    <div class="tov"></div>' +
+        '    <div class="ptag" style="background:'+ps.bg+';color:'+ps.color+';border:1px solid '+ps.color+'44">'+ps.label+'</div>' +
+        (info.isMusic ? '<div class="mbadge">♪ Music</div>' : '') +
+        '  </div>' +
+        '  <div class="vinfo">' +
+        '    <div class="vtitle">'+esc(info.title)+'</div>' +
+        '    <div class="vmeta">' +
+        (info.duration ? '<span>⏱ '+info.duration+'</span>' : '') +
+        (info.uploader ? '<span>👤 '+esc(info.uploader)+'</span>' : '') +
+        '    </div>' +
+        '    <div class="wrong">' +
+        '      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>' +
+        '      '+tx.not_right+
+        '      <a href="'+homeHref+'">'+tx.try_diff+'</a>' +
+        '    </div>' +
+        '    <div class="ttr">' +
+        '      <button class="ttb '+(selType==='video'?'act':'')+'" onclick="changeType(\'video\')">' +
+        '        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg>' +
+        '        '+tx.type_video+
+        '      </button>' +
+        '      <button class="ttb '+(selType==='mp3'?'act':'')+'" onclick="changeType(\'mp3\')">' +
+        '        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>' +
+        '        '+tx.type_audio+
+        '      </button>' +
+        '    </div>' +
+        '    <div class="qlabel">'+tx.select_q+'</div>' +
+        '    <div class="qgrid">' +
+        qs.map(function(q){
+            return '<button class="qbtn '+(q.v===selQ?'sel':'')+'" data-q="'+q.v+'" onclick="selectQ(\''+q.v+'\')">' +
+                q.l + '<span class="qsub">'+q.s+'</span>' +
+                '<span class="qsize">'+(sizeCache[selType+q.v]||'')+'</span></button>';
+        }).join('') +
+        '    </div>' +
+        '    <button class="dbtn" id="dbtn" onclick="startDL()">⬇ '+(selType==='mp3'?tx.dl_mp3:tx.dl_video)+'</button>' +
+        '    <div class="psec" id="psec">' +
+        '      <div class="phdr"><span id="plabel">'+tx.downloading+'</span><strong id="ppct">0%</strong></div>' +
+        '      <div class="ptrack"><div class="pfill" id="pfill"></div></div>' +
+        '      <div class="pmeta"><span id="pspd"></span><span id="peta"></span></div>' +
+        '    </div>' +
+        '  </div>' +
+        '</div>';
+
+    // fetch sizes in background
+    qs.forEach(function(q){ fetchSize(q.v); });
+}
+
+function goBack() {
+    window.location.href = getHomeHref(base);
+}
+
+function changeType(t) { selType = t; sizeCache = {}; render(); }
+function selectQ(v)    { selQ = v; render(); }
+
+var activeSSE = null;
+
+function startDL() {
+    var btn    = document.getElementById('dbtn');
+    var psec   = document.getElementById('psec');
+    if (activeSSE) { activeSSE.close(); activeSSE = null; }
+
+    var id = 'dl_' + Date.now();
+    btn.disabled = true;
+    btn.textContent = tx.preparing;
+    psec.classList.add('sh');
+    updateProg(0, '', '', tx.preparing);
+
+    var sse = new EventSource('/progress?id=' + id);
+    activeSSE = sse;
+    var gotData = false;
+
+    sse.onmessage = function(e) {
+        var d = JSON.parse(e.data);
+        gotData = true;
+        if (d.done || parseFloat(d.percent) >= 100) {
+            sse.close(); activeSSE = null;
+            updateProg(100, '', '', tx.done_msg);
+            sessionStorage.setItem('downloadDone', JSON.stringify({title: info.title, type: selType, lang: lang, base: base}));
+            setTimeout(function(){ window.location.href = (base||'') + '/thanks'; }, 800);
+            return;
+        }
+        updateProg(parseFloat(d.percent)||0, d.speed||'', d.eta||'', tx.downloading);
+    };
+
+    sse.onerror = function() {
+        sse.close(); activeSSE = null;
+        if (gotData) {
+            updateProg(100, '', '', tx.done_msg);
+            sessionStorage.setItem('downloadDone', JSON.stringify({title: info.title, type: selType, lang: lang, base: base}));
+            setTimeout(function(){ window.location.href = (base||'') + '/thanks'; }, 800);
+        } else {
+            // FIX: SSE connection closed without data — download may still be running
+            // (browser initiated it via <a> click). Don't treat this as an error.
+            // Just re-enable the button so user can retry if needed.
+            render(); // re-renders with fresh btn (btn ref is now stale after render)
+        }
+    };
+
+    var a = document.createElement('a');
+    a.href = '/download-file?url=' + encodeURIComponent(info.url) + '&type=' + selType + '&quality=' + selQ + '&id=' + id;
+    // FIX: set download attribute so browser uses server Content-Disposition filename
+    // The server sends filename*=UTF-8'' header which overrides this, but this is a fallback
+    var ext = selType === 'mp3' ? '.mp3' : '.mp4';
+    var safeTitle = (info.title || 'video').replace(/[\\/:*?"<>|]/g, '_').substring(0, 80);
+    a.download = safeTitle + ext;
+    a.style.display = 'none';
+    document.body.appendChild(a);
+    a.click();
+    setTimeout(function(){ document.body.removeChild(a); }, 1000);
+    // FIX: keep button enabled so user can retry if download didn't start
+    btn.disabled = false;
+}
+
+function updateProg(pct, speed, eta, label) {
+    var f = document.getElementById('pfill');
+    if (!f) return;
+    f.style.width = pct + '%';
+    document.getElementById('ppct').textContent  = Math.round(pct) + '%';
+    document.getElementById('pspd').textContent  = speed ? '⚡ ' + speed : '';
+    document.getElementById('peta').textContent  = eta   ? '⏱ ' + eta   : '';
+    if (label) document.getElementById('plabel').textContent = label;
+}
+
+/* ===== INIT ===== */
+render();
+</script>
+</body>
+</html>

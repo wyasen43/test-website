@@ -1,0 +1,1565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<url>
+  <loc>https://yourdomain.com/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>1.0</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/how-to-use</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/how-to-use"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/faq</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/faq"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/faq"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/faq"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/faq"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/faq"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/faq"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/faq"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/faq"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/faq"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/faq"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/faq"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/faq"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/faq"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/faq"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/faq"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/faq"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/faq"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/faq"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/faq"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/faq"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/faq"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/es/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>1.0</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/es/how-to-use</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/how-to-use"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/es/faq</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/faq"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/faq"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/faq"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/faq"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/faq"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/faq"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/faq"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/faq"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/faq"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/faq"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/faq"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/faq"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/faq"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/faq"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/faq"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/faq"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/faq"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/faq"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/faq"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/faq"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/faq"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/ar/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>1.0</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/ar/how-to-use</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/how-to-use"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/ar/faq</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/faq"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/faq"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/faq"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/faq"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/faq"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/faq"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/faq"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/faq"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/faq"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/faq"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/faq"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/faq"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/faq"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/faq"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/faq"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/faq"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/faq"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/faq"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/faq"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/faq"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/faq"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/pt/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>1.0</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/pt/how-to-use</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/how-to-use"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/pt/faq</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/faq"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/faq"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/faq"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/faq"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/faq"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/faq"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/faq"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/faq"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/faq"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/faq"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/faq"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/faq"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/faq"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/faq"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/faq"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/faq"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/faq"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/faq"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/faq"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/faq"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/faq"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/id/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>1.0</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/id/how-to-use</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/how-to-use"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/id/faq</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/faq"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/faq"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/faq"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/faq"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/faq"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/faq"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/faq"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/faq"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/faq"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/faq"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/faq"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/faq"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/faq"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/faq"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/faq"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/faq"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/faq"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/faq"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/faq"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/faq"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/faq"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/fr/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>1.0</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/fr/how-to-use</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/how-to-use"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/fr/faq</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/faq"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/faq"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/faq"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/faq"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/faq"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/faq"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/faq"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/faq"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/faq"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/faq"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/faq"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/faq"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/faq"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/faq"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/faq"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/faq"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/faq"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/faq"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/faq"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/faq"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/faq"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/de/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>1.0</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/de/how-to-use</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/how-to-use"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/de/faq</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/faq"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/faq"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/faq"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/faq"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/faq"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/faq"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/faq"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/faq"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/faq"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/faq"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/faq"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/faq"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/faq"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/faq"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/faq"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/faq"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/faq"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/faq"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/faq"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/faq"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/faq"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/ja/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>1.0</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/ja/how-to-use</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/how-to-use"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/ja/faq</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/faq"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/faq"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/faq"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/faq"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/faq"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/faq"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/faq"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/faq"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/faq"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/faq"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/faq"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/faq"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/faq"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/faq"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/faq"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/faq"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/faq"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/faq"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/faq"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/faq"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/faq"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/tr/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>1.0</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/tr/how-to-use</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/how-to-use"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/tr/faq</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/faq"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/faq"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/faq"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/faq"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/faq"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/faq"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/faq"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/faq"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/faq"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/faq"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/faq"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/faq"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/faq"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/faq"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/faq"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/faq"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/faq"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/faq"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/faq"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/faq"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/faq"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/ru/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>1.0</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/ru/how-to-use</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/how-to-use"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/ru/faq</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/faq"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/faq"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/faq"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/faq"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/faq"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/faq"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/faq"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/faq"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/faq"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/faq"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/faq"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/faq"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/faq"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/faq"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/faq"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/faq"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/faq"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/faq"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/faq"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/faq"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/faq"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/hi/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>1.0</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/hi/how-to-use</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/how-to-use"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/hi/faq</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/faq"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/faq"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/faq"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/faq"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/faq"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/faq"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/faq"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/faq"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/faq"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/faq"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/faq"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/faq"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/faq"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/faq"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/faq"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/faq"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/faq"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/faq"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/faq"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/faq"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/faq"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/vi/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>1.0</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/vi/how-to-use</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/how-to-use"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/vi/faq</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/faq"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/faq"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/faq"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/faq"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/faq"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/faq"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/faq"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/faq"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/faq"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/faq"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/faq"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/faq"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/faq"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/faq"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/faq"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/faq"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/faq"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/faq"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/faq"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/faq"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/faq"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/th/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>1.0</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/th/how-to-use</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/how-to-use"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/th/faq</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/faq"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/faq"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/faq"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/faq"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/faq"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/faq"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/faq"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/faq"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/faq"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/faq"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/faq"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/faq"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/faq"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/faq"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/faq"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/faq"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/faq"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/faq"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/faq"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/faq"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/faq"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/it/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>1.0</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/it/how-to-use</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/how-to-use"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/it/faq</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/faq"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/faq"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/faq"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/faq"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/faq"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/faq"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/faq"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/faq"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/faq"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/faq"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/faq"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/faq"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/faq"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/faq"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/faq"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/faq"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/faq"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/faq"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/faq"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/faq"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/faq"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/ko/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>1.0</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/ko/how-to-use</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/how-to-use"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/ko/faq</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/faq"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/faq"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/faq"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/faq"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/faq"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/faq"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/faq"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/faq"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/faq"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/faq"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/faq"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/faq"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/faq"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/faq"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/faq"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/faq"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/faq"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/faq"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/faq"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/faq"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/faq"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/fil/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>1.0</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/fil/how-to-use</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/how-to-use"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/fil/faq</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/faq"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/faq"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/faq"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/faq"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/faq"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/faq"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/faq"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/faq"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/faq"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/faq"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/faq"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/faq"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/faq"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/faq"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/faq"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/faq"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/faq"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/faq"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/faq"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/faq"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/faq"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/pl/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>1.0</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/pl/how-to-use</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/how-to-use"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/pl/faq</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/faq"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/faq"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/faq"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/faq"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/faq"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/faq"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/faq"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/faq"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/faq"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/faq"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/faq"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/faq"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/faq"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/faq"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/faq"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/faq"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/faq"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/faq"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/faq"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/faq"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/faq"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/nl/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>1.0</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/nl/how-to-use</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/how-to-use"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/nl/faq</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/faq"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/faq"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/faq"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/faq"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/faq"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/faq"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/faq"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/faq"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/faq"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/faq"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/faq"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/faq"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/faq"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/faq"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/faq"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/faq"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/faq"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/faq"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/faq"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/faq"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/faq"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/zh/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>1.0</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/zh/how-to-use</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/how-to-use"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/zh/faq</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/faq"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/faq"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/faq"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/faq"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/faq"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/faq"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/faq"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/faq"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/faq"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/faq"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/faq"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/faq"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/faq"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/faq"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/faq"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/faq"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/faq"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/faq"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/faq"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/faq"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/faq"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/uk/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>1.0</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/uk/how-to-use</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/how-to-use"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/how-to-use"/>
+</url>
+<url>
+  <loc>https://yourdomain.com/uk/faq</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+  <xhtml:link rel="alternate" hreflang="en" href="https://yourdomain.com/faq"/>
+  <xhtml:link rel="alternate" hreflang="es" href="https://yourdomain.com/es/faq"/>
+  <xhtml:link rel="alternate" hreflang="ar" href="https://yourdomain.com/ar/faq"/>
+  <xhtml:link rel="alternate" hreflang="pt" href="https://yourdomain.com/pt/faq"/>
+  <xhtml:link rel="alternate" hreflang="id" href="https://yourdomain.com/id/faq"/>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://yourdomain.com/fr/faq"/>
+  <xhtml:link rel="alternate" hreflang="de" href="https://yourdomain.com/de/faq"/>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://yourdomain.com/ja/faq"/>
+  <xhtml:link rel="alternate" hreflang="tr" href="https://yourdomain.com/tr/faq"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://yourdomain.com/ru/faq"/>
+  <xhtml:link rel="alternate" hreflang="hi" href="https://yourdomain.com/hi/faq"/>
+  <xhtml:link rel="alternate" hreflang="vi" href="https://yourdomain.com/vi/faq"/>
+  <xhtml:link rel="alternate" hreflang="th" href="https://yourdomain.com/th/faq"/>
+  <xhtml:link rel="alternate" hreflang="it" href="https://yourdomain.com/it/faq"/>
+  <xhtml:link rel="alternate" hreflang="ko" href="https://yourdomain.com/ko/faq"/>
+  <xhtml:link rel="alternate" hreflang="tl" href="https://yourdomain.com/fil/faq"/>
+  <xhtml:link rel="alternate" hreflang="pl" href="https://yourdomain.com/pl/faq"/>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://yourdomain.com/nl/faq"/>
+  <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://yourdomain.com/zh/faq"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://yourdomain.com/uk/faq"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://yourdomain.com/faq"/>
+</url>
+</urlset>

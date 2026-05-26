@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Download Complete — All In One Downloader</title>
+<meta name="robots" content="noindex"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+<style>
+:root{--bg:#020408;--card:rgba(255,255,255,.035);--br:rgba(255,255,255,.08);--tx:#f0f4ff;--mu:rgba(240,244,255,.5);--ac:#4f8eff;--a2:#a259ff;--gr:#22d3a5;}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{background:var(--bg);color:var(--tx);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+.bg{position:fixed;inset:0;z-index:0;}
+.bg::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 80% 60% at 50% 30%,rgba(34,211,165,.08) 0%,transparent 60%),radial-gradient(ellipse 60% 50% at 20% 80%,rgba(79,142,255,.07) 0%,transparent 60%);}
+.gd{position:absolute;inset:0;background-image:linear-gradient(rgba(34,211,165,.03) 1px,transparent 1px),linear-gradient(90deg,rgba(34,211,165,.03) 1px,transparent 1px);background-size:60px 60px;}
+.conf{position:fixed;inset:0;pointer-events:none;z-index:0;}
+.cp{position:absolute;animation:cf linear infinite;}
+@keyframes cf{from{transform:translateY(-20px) rotate(0deg);opacity:1;}to{transform:translateY(100vh) rotate(720deg);opacity:0;}}
+.nav{position:fixed;top:0;left:0;right:0;z-index:200;padding:11px 18px;display:flex;align-items:center;justify-content:space-between;background:rgba(2,4,8,.92);backdrop-filter:blur(20px);border-bottom:1px solid var(--br);}
+.nlogo{display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--tx);}
+.ni{width:29px;height:29px;border-radius:8px;background:linear-gradient(135deg,var(--ac),var(--a2));display:flex;align-items:center;justify-content:center;font-size:13px;}
+.nt{font-family:'Syne',sans-serif;font-weight:800;font-size:15px;}
+.nt span{color:var(--ac);}
+.pg{position:relative;z-index:1;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:96px 20px 40px;}
+.ring{width:88px;height:88px;border-radius:50%;background:rgba(34,211,165,.1);border:2px solid rgba(34,211,165,.3);display:flex;align-items:center;justify-content:center;margin:0 auto 26px;animation:pop .8s cubic-bezier(.34,1.56,.64,1) both;position:relative;}
+.ring::before{content:'';position:absolute;inset:-8px;border-radius:50%;border:1px solid rgba(34,211,165,.12);animation:pulse 2s ease-in-out infinite;}
+@keyframes pop{from{transform:scale(0);opacity:0;}to{transform:scale(1);opacity:1;}}
+@keyframes pulse{0%,100%{transform:scale(1);opacity:1;}50%{transform:scale(1.1);opacity:.4;}}
+.ck{width:34px;height:34px;stroke:var(--gr);fill:none;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;}
+.card{width:100%;max-width:440px;background:var(--card);border:1px solid var(--br);border-radius:24px;padding:38px 34px;backdrop-filter:blur(30px);box-shadow:0 30px 80px rgba(0,0,0,.4),inset 0 1px 0 rgba(255,255,255,.06);text-align:center;animation:fU .8s cubic-bezier(.16,1,.3,1) .2s both;position:relative;}
+.card::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(34,211,165,.5),rgba(79,142,255,.5),transparent);border-radius:24px 24px 0 0;}
+h1{font-family:'Syne',sans-serif;font-weight:800;font-size:clamp(22px,4vw,34px);letter-spacing:-1px;margin-bottom:10px;}
+.grad{background:linear-gradient(90deg,var(--gr),var(--ac));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
+.sub{color:var(--mu);font-size:14px;line-height:1.6;margin-bottom:8px;}
+.fname{display:inline-block;padding:7px 13px;border-radius:9px;background:rgba(255,255,255,.04);border:1px solid var(--br);font-size:13px;color:var(--mu);margin-bottom:26px;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.stats{display:flex;border:1px solid var(--br);border-radius:13px;overflow:hidden;margin-bottom:24px;}
+.stat{flex:1;padding:13px 9px;text-align:center;border-right:1px solid var(--br);}
+.stat:last-child{border-right:none;}
+.sv{font-family:'Syne',sans-serif;font-weight:700;font-size:17px;}
+.sl{font-size:10px;color:var(--mu);margin-top:3px;text-transform:uppercase;letter-spacing:.5px;}
+.btn1{display:block;width:100%;padding:14px;border:none;border-radius:12px;background:linear-gradient(135deg,var(--ac),var(--a2));color:white;font-size:14px;font-weight:600;font-family:'Syne',sans-serif;cursor:pointer;text-decoration:none;transition:transform .2s,box-shadow .2s;margin-bottom:9px;}
+.btn1:hover{transform:translateY(-2px);box-shadow:0 10px 28px rgba(79,142,255,.35);}
+.btn2{display:block;width:100%;padding:12px;border-radius:12px;border:1px solid var(--br);background:transparent;color:var(--mu);font-size:13px;font-family:'DM Sans',sans-serif;cursor:pointer;text-decoration:none;transition:border-color .2s,color .2s;}
+.btn2:hover{border-color:rgba(255,255,255,.18);color:var(--tx);}
+footer{position:relative;z-index:1;text-align:center;padding:18px;color:rgba(255,255,255,.15);font-size:12px;border-top:1px solid var(--br);}
+footer a{color:rgba(255,255,255,.25);text-decoration:none;margin:0 7px;}
+@keyframes fU{from{opacity:0;transform:translateY(22px);}to{opacity:1;transform:translateY(0);}}
+</style>
+</head>
+<body>
+<div class="bg"><div class="gd"></div></div>
+<div class="conf" id="conf"></div>
+
+<nav class="nav">
+  <a class="nlogo" id="homeLink" href="/">
+    <div class="ni">⬇</div>
+    <div class="nt">All<span>In</span>One</div>
+  </a>
+</nav>
+
+<main class="pg">
+  <div class="ring">
+    <svg class="ck" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+  </div>
+  <div class="card">
+    <h1 id="title">Download <span class="grad">Complete!</span></h1>
+    <p class="sub" id="sub">Your file is ready. Check your downloads folder.</p>
+    <div class="fname" id="fname">video.mp4</div>
+    <div class="stats">
+      <div class="stat"><div class="sv" id="sfmt">MP4</div><div class="sl">Format</div></div>
+      <div class="stat"><div class="sv">✓</div><div class="sl">HD</div></div>
+      <div class="stat"><div class="sv">Free</div><div class="sl">Cost</div></div>
+    </div>
+    <a class="btn1" id="dlAnother" href="/">⬇ Download Another Video</a>
+    <a class="btn2" id="backHome" href="/">← Back to Home</a>
+  </div>
+</main>
+
+<footer id="footer">© 2025 All In One Downloader</footer>
+
+<script>
+function detectBaseFromPath() {
+    var m = window.location.pathname.match(/^\/([a-z]{2,3})(?:\/|$)/);
+    return m ? '/' + m[1] : '';
+}
+
+function getHomeHref(basePath) {
+    if (basePath) return basePath || '/';
+    if (window.location.pathname === '/' || window.location.pathname === '/thanks') return '/';
+    return 'index.html';
+}
+
+var raw = sessionStorage.getItem('downloadDone');
+var lang = localStorage.getItem('aio_lang') || 'en', base = detectBaseFromPath();
+
+if (raw) {
+    try {
+        var d = JSON.parse(raw);
+        lang = d.lang || 'en';
+        base = d.base || detectBaseFromPath();
+        var ext = d.type === 'mp3' ? 'mp3' : 'mp4';
+        document.getElementById('fname').textContent = (d.title || 'video') + '.' + ext;
+        document.getElementById('sfmt').textContent  = ext.toUpperCase();
+    } catch(e) {}
+}
+
+// set lang & dir
+document.documentElement.lang = lang;
+if (lang === 'ar') document.documentElement.dir = 'rtl';
+
+// update links
+var homeHref = getHomeHref(base);
+document.getElementById('homeLink').href   = homeHref;
+document.getElementById('dlAnother').href  = homeHref;
+document.getElementById('backHome').href   = homeHref;
+
+// translations
+var TT = {
+    en: {title:'Download Complete!', sub:'Your file is ready. Check your downloads folder.', btn1:'⬇ Download Another Video', btn2:'← Back to Home'},
+    ar: {title:'اكتمل التحميل!', sub:'ملفك جاهز. تحقق من مجلد التنزيلات.', btn1:'⬇ حمّل فيديو آخر', btn2:'← العودة للرئيسية'},
+    es: {title:'¡Descarga Completa!', sub:'Tu archivo está listo. Revisa tu carpeta de descargas.', btn1:'⬇ Descargar otro video', btn2:'← Volver al inicio'},
+    pt: {title:'Download Completo!', sub:'Seu arquivo está pronto.', btn1:'⬇ Baixar outro vídeo', btn2:'← Voltar ao início'},
+    fr: {title:'Téléchargement Terminé!', sub:'Votre fichier est prêt.', btn1:'⬇ Télécharger une autre vidéo', btn2:'← Retour à l\'accueil'},
+    de: {title:'Download Abgeschlossen!', sub:'Deine Datei ist bereit.', btn1:'⬇ Ein weiteres Video herunterladen', btn2:'← Zur Startseite'},
+    id: {title:'Unduhan Selesai!', sub:'File Anda siap.', btn1:'⬇ Unduh video lain', btn2:'← Kembali'},
+    tr: {title:'İndirme Tamamlandı!', sub:'Dosyanız hazır.', btn1:'⬇ Başka bir video indir', btn2:'← Ana sayfaya dön'},
+    ru: {title:'Загрузка Завершена!', sub:'Ваш файл готов.', btn1:'⬇ Скачать другое видео', btn2:'← На главную'},
+    ja: {title:'ダウンロード完了!', sub:'ファイルが準備できました。', btn1:'⬇ 別の動画をダウンロード', btn2:'← ホームに戻る'},
+    ko: {title:'다운로드 완료!', sub:'파일이 준비되었습니다.', btn1:'⬇ 다른 동영상 다운로드', btn2:'← 홈으로'},
+    zh: {title:'下载完成!', sub:'您的文件已准备好。', btn1:'⬇ 下载另一个视频', btn2:'← 返回首页'},
+    hi: {title:'डाउनलोड पूर्ण!', sub:'आपकी फ़ाइल तैयार है।', btn1:'⬇ दूसरा वीडियो डाउनलोड करें', btn2:'← होम पर वापस'},
+    vi: {title:'Tải Xuống Hoàn Tất!', sub:'Tệp của bạn đã sẵn sàng.', btn1:'⬇ Tải video khác', btn2:'← Về trang chủ'},
+    it: {title:'Download Completato!', sub:'Il tuo file è pronto.', btn1:'⬇ Scarica un altro video', btn2:'← Torna alla home'},
+    th: {title:'ดาวน์โหลดเสร็จสิ้น!', sub:'ไฟล์ของคุณพร้อมแล้ว', btn1:'⬇ ดาวน์โหลดวิดีโออื่น', btn2:'← กลับสู่หน้าหลัก'},
+    fil:{title:'Tapos na ang Download!', sub:'Handa na ang iyong file.', btn1:'⬇ Mag-download ng ibang video', btn2:'← Bumalik sa home'},
+    pl: {title:'Pobieranie zakończone!', sub:'Twój plik jest gotowy.', btn1:'⬇ Pobierz inne wideo', btn2:'← Wróć'},
+    nl: {title:'Download voltooid!', sub:'Uw bestand is klaar.', btn1:'⬇ Nog een video downloaden', btn2:'← Terug'},
+    uk: {title:'Завантаження Завершено!', sub:'Ваш файл готовий.', btn1:'⬇ Завантажити інше відео', btn2:'← На головну'},
+};
+var tt = TT[lang] || TT['en'];
+document.getElementById('title').innerHTML = tt.title.replace('!','! ').replace(/^(\S+ \S+)/, '$1 <span class="grad">').replace(/!/, '!</span>') || tt.title;
+document.getElementById('title').innerHTML = tt.title;
+document.getElementById('sub').textContent       = tt.sub;
+document.getElementById('dlAnother').textContent = tt.btn1;
+document.getElementById('backHome').textContent  = tt.btn2;
+
+// confetti
+(function(){
+    var w=document.getElementById('conf');
+    var c=['#4f8eff','#a259ff','#22d3a5','#f472b6','#fbbf24','#ff6b6b'];
+    for(var i=0;i<35;i++){
+        var el=document.createElement('div'); el.className='cp';
+        var col=c[Math.floor(Math.random()*c.length)];
+        var sz=4+Math.random()*7;
+        el.style.cssText='left:'+Math.random()*100+'%;width:'+sz+'px;height:'+sz+'px;background:'+col+';border-radius:'+(Math.random()>.5?'50%':'2px')+';animation-duration:'+(3+Math.random()*4)+'s;animation-delay:'+Math.random()*3+'s;opacity:'+(0.5+Math.random()*0.5)+';';
+        w.appendChild(el);
+    }
+})();
+</script>
+</body>
+</html>

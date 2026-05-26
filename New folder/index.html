@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>All In One Downloader — Download Videos from YouTube, TikTok, Instagram & More</title>
+<meta name="description" content="Free online video downloader. Download videos and MP3 from YouTube, TikTok, Instagram, Facebook, and Twitter in HD quality. Fast, free, no registration."/>
+<meta name="keywords" content="video downloader, youtube downloader, tiktok downloader, instagram downloader, mp3 downloader, free video download"/>
+<meta property="og:title" content="All In One Downloader"/>
+<meta property="og:type" content="website"/>
+<meta name="robots" content="index, follow"/>
+<link rel="canonical" href="https://yourdomain.com/"/>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"All In One Downloader","url":"https://yourdomain.com","applicationCategory":"MultimediaApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+<script src="lang.js"></script>
+<style>
+:root{--bg:#020408;--card:rgba(255,255,255,0.035);--border:rgba(255,255,255,0.08);--text:#f0f4ff;--muted:rgba(240,244,255,0.45);--accent:#4f8eff;--accent2:#a259ff;--green:#22d3a5;--red:#ff6b6b;}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden;}
+.bg-scene{position:fixed;inset:0;z-index:0;overflow:hidden;}
+.bg-scene::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 80% 60% at 20% 10%,rgba(79,142,255,0.12) 0%,transparent 60%),radial-gradient(ellipse 60% 50% at 80% 80%,rgba(162,89,255,0.1) 0%,transparent 60%);}
+.grid{position:absolute;inset:0;background-image:linear-gradient(rgba(79,142,255,0.04) 1px,transparent 1px),linear-gradient(90deg,rgba(79,142,255,0.04) 1px,transparent 1px);background-size:60px 60px;mask-image:radial-gradient(ellipse 100% 100% at 50% 50%,black 30%,transparent 80%);}
+</style>
+<style id="nav-style"></style>
+<style>
+.page{position:relative;z-index:1;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:100px 20px 60px;}
+
+/* LOGO */
+.logo-wrap{display:flex;align-items:center;gap:10px;margin-bottom:28px;animation:fadeDown 0.7s cubic-bezier(0.16,1,0.3,1) both;}
+.logo-icon-big{width:48px;height:48px;border-radius:14px;background:linear-gradient(135deg,var(--accent),var(--accent2));display:flex;align-items:center;justify-content:center;font-size:22px;box-shadow:0 0 32px rgba(79,142,255,0.4);}
+.logo-text-big{font-family:'Syne',sans-serif;font-weight:800;font-size:26px;letter-spacing:-1px;}
+.logo-text-big span{color:var(--accent);}
+
+/* HERO */
+.hero{text-align:center;margin-bottom:28px;animation:fadeDown 0.7s cubic-bezier(0.16,1,0.3,1) 0.1s both;}
+.hero-badge{display:inline-flex;align-items:center;gap:6px;padding:5px 14px;border-radius:50px;background:rgba(79,142,255,0.1);border:1px solid rgba(79,142,255,0.25);font-size:12px;color:var(--accent);font-weight:500;margin-bottom:14px;}
+.hero-badge::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--green);animation:blink 2s infinite;}
+@keyframes blink{0%,100%{opacity:1;}50%{opacity:0.3;}}
+h1{font-family:'Syne',sans-serif;font-weight:800;font-size:clamp(22px,3.5vw,40px);line-height:1.1;letter-spacing:-1px;margin-bottom:10px;}
+.grad{background:linear-gradient(90deg,var(--accent),var(--accent2),var(--green));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
+.hero-sub{font-size:15px;color:var(--muted);font-weight:300;max-width:400px;margin:0 auto;}
+
+/* PLATFORMS */
+.platforms{display:flex;gap:7px;justify-content:center;flex-wrap:wrap;margin-bottom:24px;}
+.plat{display:flex;align-items:center;gap:5px;padding:5px 12px;border-radius:50px;font-size:11px;font-weight:500;border:1px solid;transition:transform 0.2s;cursor:default;}
+.plat:hover{transform:translateY(-2px);}
+.p-yt {background:rgba(255,0,0,0.08);border-color:rgba(255,0,0,0.2);color:#ff6b6b;}
+.p-ytm{background:rgba(255,0,60,0.08);border-color:rgba(255,0,60,0.2);color:#ff4d7a;}
+.p-fb {background:rgba(24,119,242,0.08);border-color:rgba(24,119,242,0.2);color:#60a5fa;}
+.p-tt {background:rgba(255,255,255,0.05);border-color:rgba(255,255,255,0.12);color:#e5e5e5;}
+.p-ig {background:rgba(200,55,170,0.08);border-color:rgba(200,55,170,0.2);color:#f472b6;}
+.p-tw {background:rgba(29,161,242,0.08);border-color:rgba(29,161,242,0.2);color:#7dd3fc;}
+
+/* CARD */
+.card{width:100%;max-width:520px;background:var(--card);border:1px solid var(--border);border-radius:22px;padding:26px;backdrop-filter:blur(30px);box-shadow:0 30px 80px rgba(0,0,0,0.4),inset 0 1px 0 rgba(255,255,255,0.06);position:relative;overflow:hidden;animation:fadeUp 0.7s cubic-bezier(0.16,1,0.3,1) 0.2s both;}
+.card::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(79,142,255,0.5),rgba(162,89,255,0.5),transparent);}
+.input-wrap{position:relative;margin-bottom:10px;}
+.url-input{width:100%;padding:14px 95px 14px 44px;background:rgba(255,255,255,0.04);border:1px solid var(--border);border-radius:12px;color:var(--text);font-size:14px;font-family:'DM Sans',sans-serif;outline:none;transition:all 0.3s;}
+.url-input::placeholder{color:rgba(255,255,255,0.25);}
+.url-input:focus{border-color:rgba(79,142,255,0.5);background:rgba(79,142,255,0.05);box-shadow:0 0 0 3px rgba(79,142,255,0.1);}
+.input-icon{position:absolute;left:14px;top:50%;transform:translateY(-50%);color:var(--muted);pointer-events:none;}
+.input-icon svg{width:15px;height:15px;stroke:currentColor;fill:none;stroke-width:2;}
+.detect-pill{position:absolute;right:9px;top:50%;transform:translateY(-50%);padding:3px 8px;border-radius:20px;font-size:10px;font-weight:600;display:none;pointer-events:none;}
+.detect-pill.show{display:block;}
+.paste-btn{width:100%;padding:11px;background:rgba(79,142,255,0.07);border:1px solid rgba(79,142,255,0.18);border-radius:11px;color:var(--accent);font-size:13px;font-weight:500;font-family:'DM Sans',sans-serif;cursor:pointer;transition:all 0.2s;display:flex;align-items:center;justify-content:center;gap:7px;margin-bottom:12px;}
+.paste-btn:hover{background:rgba(79,142,255,0.13);}
+.paste-btn.ok{background:rgba(34,211,165,0.08);border-color:rgba(34,211,165,0.25);color:var(--green);}
+.paste-btn svg{width:14px;height:14px;stroke:currentColor;fill:none;stroke-width:2;}
+.type-row{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-bottom:12px;}
+.type-btn{padding:11px;border-radius:11px;border:1px solid var(--border);background:transparent;color:var(--muted);font-size:13px;font-weight:500;font-family:'DM Sans',sans-serif;cursor:pointer;transition:all 0.2s;display:flex;align-items:center;justify-content:center;gap:6px;}
+.type-btn.active{background:rgba(79,142,255,0.1);border-color:rgba(79,142,255,0.32);color:var(--text);}
+.fetch-btn{width:100%;padding:14px;border:none;border-radius:12px;background:linear-gradient(135deg,var(--accent),var(--accent2));color:white;font-size:14px;font-weight:600;font-family:'Syne',sans-serif;cursor:pointer;transition:transform 0.2s,box-shadow 0.2s,opacity 0.2s;position:relative;overflow:hidden;}
+.fetch-btn::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(255,255,255,0.1),transparent);}
+.fetch-btn:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(79,142,255,0.35);}
+.fetch-btn:active{transform:scale(0.98);}
+.fetch-btn:disabled{opacity:0.6;cursor:not-allowed;transform:none;}
+.dots{display:inline-flex;gap:4px;vertical-align:middle;}
+.dots span{width:4px;height:4px;border-radius:50%;background:white;animation:dot 1.2s infinite;}
+.dots span:nth-child(2){animation-delay:0.2s;}.dots span:nth-child(3){animation-delay:0.4s;}
+@keyframes dot{0%,80%,100%{transform:scale(0);opacity:0.3;}40%{transform:scale(1);opacity:1;}}
+.error-msg{margin-top:10px;padding:10px 13px;border-radius:10px;background:rgba(255,107,107,0.08);border:1px solid rgba(255,107,107,0.2);color:var(--red);font-size:13px;text-align:center;display:none;}
+.error-msg.show{display:block;}
+.features{display:flex;gap:16px;margin-top:24px;animation:fadeUp 0.7s cubic-bezier(0.16,1,0.3,1) 0.4s both;}
+.feat{text-align:center;color:var(--muted);font-size:12px;}
+.feat-icon{font-size:16px;margin-bottom:4px;}
+footer{position:relative;z-index:1;text-align:center;padding:20px;color:rgba(255,255,255,0.15);font-size:12px;border-top:1px solid var(--border);}
+footer a{color:rgba(255,255,255,0.25);text-decoration:none;margin:0 8px;}
+footer a:hover{color:var(--muted);}
+@keyframes fadeDown{from{opacity:0;transform:translateY(-14px);}to{opacity:1;transform:translateY(0);}}
+@keyframes fadeUp{from{opacity:0;transform:translateY(14px);}to{opacity:1;transform:translateY(0);}}
+@media(max-width:480px){.card{padding:18px;}h1{font-size:20px;}.features{gap:10px;}}
+</style>
+</head>
+<body>
+<div class="bg-scene"><div class="grid"></div></div>
+<div id="nav-container"></div>
+
+<main class="page">
+  <div class="logo-wrap">
+    <div class="logo-icon-big">⬇</div>
+    <div class="logo-text-big">All<span>In</span>One</div>
+  </div>
+
+  <div class="hero">
+    <div class="hero-badge"><span></span> <span data-i18n="badge">Free · Fast · No Registration</span></div>
+    <h1><span data-i18n="h1_line1">Download Any Video</span><br><span class="grad" data-i18n="h1_line2">or Audio</span></h1>
+    <p class="hero-sub" data-i18n="hero_sub">Paste a link from any platform and get your file in seconds.</p>
+  </div>
+
+  <div class="platforms">
+    <div class="plat p-yt"><svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-2.7A12.94 12.94 0 0012 3.5a12.94 12.94 0 00-3.82.49A4.83 4.83 0 014.41 6.69 11.46 11.46 0 003 12a11.46 11.46 0 001.41 5.31 4.83 4.83 0 003.77 2.7A12.94 12.94 0 0012 20.5a12.94 12.94 0 003.82-.49 4.83 4.83 0 003.77-2.7A11.46 11.46 0 0021 12a11.46 11.46 0 00-1.41-5.31zM10 15.5v-7l6 3.5z"/></svg>YouTube</div>
+    <div class="plat p-ytm">♪ YT Music</div>
+    <div class="plat p-fb"><svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>Facebook</div>
+    <div class="plat p-tt"><svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-2.7V3h-3.45v13a2.92 2.92 0 01-5.86 0 2.92 2.92 0 012.93-2.92c.28 0 .54.04.79.1V9.23a6.37 6.37 0 00-.79-.05 6.37 6.37 0 000 12.74 6.37 6.37 0 006.37-6.37V9.38a8.15 8.15 0 004.77 1.52V7.45a4.85 4.85 0 01-2.99-.76z"/></svg>TikTok</div>
+    <div class="plat p-ig"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>Instagram</div>
+    <div class="plat p-tw"><svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>Twitter</div>
+  </div>
+
+  <div class="card">
+    <div class="input-wrap">
+      <span class="input-icon"><svg viewBox="0 0 24 24"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"/></svg></span>
+      <input class="url-input" id="url" oninput="detectPlatform(this.value)" autocomplete="off" spellcheck="false" data-i18n-ph="input_ph"/>
+      <div class="detect-pill" id="detect-pill"></div>
+    </div>
+    <button class="paste-btn" id="paste-btn" onclick="pasteURL()">
+      <svg viewBox="0 0 24 24"><rect x="9" y="2" width="10" height="4" rx="1"/><path d="M9 4H6a2 2 0 00-2 2v14a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-3"/></svg>
+      <span data-i18n="paste_btn">Paste from clipboard</span>
+    </button>
+    <div class="type-row">
+      <button class="type-btn active" id="btn-video" onclick="setType('video')">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg>
+        <span data-i18n="type_video">Video (MP4)</span>
+      </button>
+      <button class="type-btn" id="btn-mp3" onclick="setType('mp3')">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+        <span data-i18n="type_audio">Audio (MP3)</span>
+      </button>
+    </div>
+    <button class="fetch-btn" id="fetch-btn" onclick="fetchVideo()">
+      <span data-i18n="continue_btn">Continue →</span>
+    </button>
+    <div class="error-msg" id="error-msg"></div>
+  </div>
+
+  <div class="features">
+    <div class="feat"><div class="feat-icon">⚡</div><span data-i18n="feat1">Fast</span></div>
+    <div class="feat"><div class="feat-icon">🔒</div><span data-i18n="feat2">Free</span></div>
+    <div class="feat"><div class="feat-icon">🎯</div><span data-i18n="feat3">HD Quality</span></div>
+    <div class="feat"><div class="feat-icon">📱</div><span data-i18n="feat4">Mobile Ready</span></div>
+  </div>
+</main>
+
+<footer>
+  © 2025 All In One Downloader —
+  <a href="how-to-use.html" data-i18n="nav_howto">How to Use</a>
+  <a href="faq.html" data-i18n="nav_faq">FAQ</a>
+</footer>
+<input type="hidden" id="dl-type" value="video"/>
+
+<script>
+// inject nav CSS + HTML
+document.getElementById('nav-style').textContent = NAV_CSS;
+document.getElementById('nav-container').innerHTML = renderNav('home');
+buildLangMenu();
+applyLang(getLang());
+
+const PLATFORMS={
+  youtube_music:{keys:['music.youtube.com'],       label:'YT Music', color:'#ff4d7a'},
+  youtube:      {keys:['youtube.com','youtu.be'],  label:'YouTube',  color:'#ff6b6b'},
+  facebook:     {keys:['facebook.com','fb.watch'], label:'Facebook', color:'#60a5fa'},
+  tiktok:       {keys:['tiktok.com'],              label:'TikTok',   color:'#e5e5e5'},
+  instagram:    {keys:['instagram.com'],           label:'Instagram',color:'#f472b6'},
+  twitter:      {keys:['twitter.com','x.com'],     label:'Twitter',  color:'#7dd3fc'},
+};
+
+function detectPlatform(url){
+  const pill=document.getElementById('detect-pill');
+  for(const cfg of Object.values(PLATFORMS)){
+    if(cfg.keys.some(k=>url.includes(k))){
+      pill.textContent=cfg.label; pill.className='detect-pill show';
+      pill.style.cssText=`display:block;color:${cfg.color};background:${cfg.color}22;border:1px solid ${cfg.color}44;`;
+      return;
+    }
+  }
+  pill.className='detect-pill';
+}
+
+function setType(t){
+  document.getElementById('dl-type').value=t;
+  document.getElementById('btn-video').classList.toggle('active',t==='video');
+  document.getElementById('btn-mp3').classList.toggle('active',t==='mp3');
+}
+
+async function pasteURL(){
+  const lang=getLang();
+  const btn=document.getElementById('paste-btn');
+  try{
+    const text=(await navigator.clipboard.readText()).trim();
+    if(!text)return;
+    document.getElementById('url').value=text;
+    detectPlatform(text);
+    btn.classList.add('ok');
+    btn.innerHTML=`<svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> ${t('pasted',lang)}`;
+    setTimeout(()=>{btn.classList.remove('ok');btn.innerHTML=`<svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="2" width="10" height="4" rx="1"/><path d="M9 4H6a2 2 0 00-2 2v14a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-3"/></svg><span data-i18n="paste_btn">${t('paste_btn',lang)}</span>`;},2000);
+  }catch{showError('Allow clipboard access.');}
+}
+
+async function fetchVideo(){
+  const lang=getLang();
+  const url=document.getElementById('url').value.trim();
+  const type=document.getElementById('dl-type').value;
+  const btn=document.getElementById('fetch-btn');
+  if(!url){showError(t('err_no_url',lang));return;}
+  const allKeys=Object.values(PLATFORMS).flatMap(p=>p.keys);
+  if(!allKeys.some(k=>url.includes(k))){showError(t('err_plat',lang));return;}
+  btn.disabled=true;
+  btn.innerHTML=`${t('fetching',lang)} <span class="dots"><span></span><span></span><span></span></span>`;
+  hideError();
+  try{
+    const res=await fetch(`/fetch-info?url=${encodeURIComponent(url)}`);
+    if(!res.ok)throw new Error();
+    const info=await res.json();
+    const langMatch=window.location.pathname.match(/^\/([a-z]{2,3})(?:\/|$)/);
+    const base=langMatch?`/${langMatch[1]}`:'';
+    const payload={...info,url,type,lang,base};
+    sessionStorage.setItem('vInfo',JSON.stringify(payload));
+    sessionStorage.setItem('videoInfo',JSON.stringify(payload));
+    window.location.href=base?`${base}/download`:(window.location.pathname==='/'?'/download':'download.html');
+  }catch{
+    btn.disabled=false;
+    btn.innerHTML=`<span data-i18n="continue_btn">${t('continue_btn',lang)}</span>`;
+    showError(t('err_fetch',lang));
+  }
+}
+function showError(msg){const el=document.getElementById('error-msg');el.textContent=msg;el.classList.add('show');}
+function hideError(){document.getElementById('error-msg').classList.remove('show');}
+</script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /tmp/
+Disallow: /download-file
+Disallow: /fetch-info
+Disallow: /progress
+Disallow: /download.html
+Disallow: /thanks.html
+
+Sitemap: https://yourdomain.com/sitemap.xml
